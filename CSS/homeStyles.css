@@ -5,6 +5,12 @@ body {
 
 }
 
+h1{
+
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+}
+
 
 
 /* Title Section */
@@ -14,9 +20,11 @@ body {
     padding-bottom: 20%;
 }
     
-    .container-fluid{
-   
-        padding: 3% 15%;
+
+    #navbar-container{
+
+        background-color: black;
+        padding: 3% 10%;
     }
 
     /* Navigation Bar */
@@ -39,7 +47,7 @@ body {
 
         .navbar_text{
             
-            color: gold;
+            color: goldenrod;
         }
 
 
@@ -49,7 +57,23 @@ body {
             height: 30%;
             
         }
-    
-    
+
+        .nav-border{
+
+            color: goldenrod;
+        }
+
+    #title-container{
+
+        padding: 20% 20%;
+
+    }
+
+        .title-text{
+
+            position: absolute;
+            left: 15%;
+            top: 5%;
+        }
 
         
