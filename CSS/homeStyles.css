@@ -1,13 +1,17 @@
+*{
+
+    font-family: 'Ropa Sans', sans-serif;
+}
 
 body {
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
 
 }
 
 h1{
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
     color: goldenrod;
 }
 
@@ -17,22 +21,23 @@ h1{
 
 #title {
 
-    padding-bottom: 20%;
+    
+    background-image: url("../images/Rocket_launch_background.jpg");
+    background-size: cover;
+    height: 950px;
 }
     
 
     #navbar-container{
 
-        background-color: black;
-        padding: 3% 10%;
+        /* background-color: black; */
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
     }
 
     /* Navigation Bar */
-
-        .navbar{
-
-            padding: 0 0 4.5rem;
-        }
 
         .navbar-nav{
 
@@ -43,6 +48,7 @@ h1{
         .nav-item{
 
             padding: 0 15px;
+            font-size: medium;
         }
 
         .navbar_text{
@@ -63,17 +69,66 @@ h1{
             color: goldenrod;
         }
 
-    #title-container{
+    .title-text{
 
-        padding: 20% 20%;
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        
+    }
+    
+    .banner{
+
+        background-color: goldenrod;
+        padding: 3% 0%;
+        
+    }
+        
+        .banner-text{
+
+            color: black;
+            text-align: left;
+            vertical-align: middle;
+            padding-left: 2%;
+        }
+
+        .signup-button{
+
+            
+            vertical-align: middle;
+        }
+
+/* Teams Introduction Section */
+#teams{
+
+    background-image: url("../images/event_banner.jpg");
+    padding-bottom: 5%;
+}
+
+    .team-column{
+
+        padding-top: 5%;
+        text-align: center;
 
     }
 
-        .title-text{
+        .row{
 
-            position: absolute;
-            left: 15%;
-            top: 5%;
+            padding: 3% 0%;
         }
+
+            .card{
+
+                background-color: goldenrod;
+                
+            }
+
+                .card-img-top{
+
+                    border-radius: 60%;
+                    
+                }
+
+    
 
         
