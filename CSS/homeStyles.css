@@ -77,12 +77,12 @@ h1{
         
     }
     
-    .banner{
+.banner{
 
-        background-color: goldenrod;
-        padding: 3% 0%;
-        
-    }
+    background-color: goldenrod;
+    padding: 2% 0%;
+    
+}
         
         .banner-text{
 
@@ -92,11 +92,17 @@ h1{
             padding-left: 2%;
         }
 
-        .signup-button{
+        .btn-dark{
 
-            
-            vertical-align: middle;
+            display: inline-flex;
+            align-items: center;
+            font-size: larger;
+            justify-content: space-around;
+            height: 70%;
+            width: 30%;
         }
+
+        
 
 /* Teams Introduction Section */
 #teams{
