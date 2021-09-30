@@ -12,7 +12,7 @@ body {
 h1{
 
     font-family: 'Ropa Sans', sans-serif;
-    color: goldenrod;
+    /* color: goldenrod; */
 }
 
 
@@ -25,6 +25,7 @@ h1{
     background-image: url("../images/Rocket_launch_background.jpg");
     background-size: cover;
     height: 950px;
+    color: goldenrod;
 }
     
 
@@ -56,6 +57,11 @@ h1{
             color: goldenrod;
         }
 
+        .navbar_text:hover{
+
+            color: gold
+        }
+
 
         .navbar-brand img{
 
@@ -76,7 +82,9 @@ h1{
         top: 35%;
         
     }
-    
+
+
+/* Signup Banner */
 .banner{
 
     background-color: goldenrod;
@@ -108,14 +116,15 @@ h1{
 #teams{
 
     background-image: url("../images/event_banner.jpg");
-    padding-bottom: 5%;
+    text-align: center;
+    color: black;
+    padding: 3% 0%;
 }
 
     .team-column{
 
-        padding-top: 5%;
+        padding-top: 1%;
         text-align: center;
-
     }
 
         .row{
@@ -126,15 +135,47 @@ h1{
             .card{
 
                 background-color: goldenrod;
-                
             }
 
                 .card-img-top{
 
                     border-radius: 60%;
-                    
+                    height: 200px;
+                    width: 250px;
                 }
 
-    
+#associations{
 
-        
+    text-align: center;
+    background-color: goldenrod;
+    padding-top: 2%;
+    color: black;
+
+}
+
+    .press-logos{
+
+        width: 8%;
+        height: 8%;
+        margin: 5%;
+
+    }
+
+#site-index{
+
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
+    justify-content: space-between;
+}
+
+    .index-list{
+
+        list-style-type: none;
+    }
+
+        .index-header{
+            padding-bottom: 5%;
+        }
