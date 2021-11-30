@@ -1,0 +1,107 @@
+#title{
+
+    background-color: black;
+    height: 50%;
+}
+
+    #navbar-container {
+        
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+
+        /* Navigation Bar */
+        .navbar-nav {
+
+            text-align: right;
+            
+        }
+
+            .nav-item {
+
+                padding: 0 15px;
+                font-size: larger;
+            }
+
+            .navbar_text {
+
+                color: goldenrod;
+                font-size: medium;
+            }
+
+                .navbar_text:hover {
+
+                    color: gold
+                }
+
+
+            .navbar-brand img {
+
+                width: 30%;
+                height: 30%;
+
+            }
+
+            .nav-border {
+
+                color: goldenrod;
+            }
+
+    #carousel-container{
+        
+        text-align: center;
+    }
+
+        .testimonial-image{
+            
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+        }
+
+        .carousel-item{
+            padding: 7% 15%;
+            
+        }
+    
+/* #offers{
+    width: 500px;
+    height: 300px;
+
+} */
+
+
+#Associations{
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+    background-color: goldenrod;
+}
+
+    .logo{
+
+        height: 10%;
+        width: 10%;
+        margin: 5% 3% 5% 3%;
+    }
+
+
+#site-index {
+
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
+    justify-content: space-between;
+}
+
+    .index-list {
+
+        list-style-type: none;
+    }
+
+    .index-header {
+        padding-bottom: 5%;
+    }
