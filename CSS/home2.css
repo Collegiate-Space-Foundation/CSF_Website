@@ -65,12 +65,37 @@
             padding: 7% 15%;
             
         }
-    
-/* #offers{
-    width: 500px;
-    height: 300px;
 
-} */
+
+#News{
+    background-image: url('../images/event_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.Events-column{
+    
+    padding: 1% 5% 3%;
+}
+
+.Offers-column{
+    /* background-color: black; */
+    padding: 1% 5% 3%;
+}
+
+    .card-header {
+        text-align: center;
+    }
+
+.Projects-column{
+    /* background-color: goldenrod; */
+    padding: 1% 5% 3%;
+}
+
+    .Project_List{
+        padding: 5% 0% 5%;
+    }
 
 
 #Associations{
@@ -81,8 +106,8 @@
 
     .logo{
 
-        height: 10%;
-        width: 10%;
+        height: 8%;
+        width: 8%;
         margin: 5% 3% 5% 3%;
     }
 
