@@ -23,7 +23,38 @@ h4{
 
     }
 
-#about{
+.club-description{
 
+    padding: 3% 10% 3% 10%;
     
 }
+
+
+.officers{
+    padding: 3% 10% 3% 10%;
+}
+
+    .officer-description {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+
+#site-index {
+
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
+    justify-content: space-between;
+}
+
+    .index-list {
+
+        list-style-type: none;
+    }
+
+    .index-header {
+        padding-bottom: 1%;
+    }

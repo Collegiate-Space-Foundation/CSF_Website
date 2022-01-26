@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Favicon -->
     <link rel="icon" href="..\images\CSF_Favicon.ico">
+
+    <!-- Ropa Sans Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
     
 
     <!-- Bootstrap & JavaScript addons -->
@@ -26,9 +30,6 @@
 <body>
 
     <section id="title">
-
-        
-
         <div id="navbar-container" class="container-fluid">
 
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -43,13 +44,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                     <ul class="navbar-nav ml-auto">
-            
+
                         <li class="nav-item">
-                            <a class="nav-link" href="HTML/signup.html"><h4 class="navbar_text">Projects</h4></a>
+                            <a href="#title" class="nav-link"><h4 class="navbar_text">Home</h4></a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="HTML/events.html"><h4 class="navbar_text">Events</h4></a>
+                            <a class="nav-link" href="#Projects"><h4 class="navbar_text">Projects</h4></a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Events"><h4 class="navbar_text">Events</h4></a>
                         </li>
             
                         <li class="nav-item">
@@ -69,24 +74,21 @@
                         <img class="testimonial-image" src="images/HeloSAT.png">
 
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Hello</h5>
-                            <p>A Satellite</p>
+                            <h5 style="color: goldenrod;">KS1 Satellite</h5>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img class="testimonial-image" src="images/HeloSAT2.png">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Hello</h5>
-                            <p>A Satellite</p>
+                            <h5 style="color: goldenrod;">Theia Satellite</h5>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img class="testimonial-image" src="images/SmallSAT.png">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Hello</h5>
-                            <p>A Satellite</p>
+                            <h5 style="color: goldenrod;">PlantSAT CAD Model</h5>
                         </div>
                     </div>
                 </div>
@@ -100,16 +102,15 @@
                 </a>
             </div>
         </div>
-
-        
     </section>
 
 
     <section id="News">
         <div class="container-fluid">
             <div class="row">
-                <div class="Offers-column col-lg-6 col-md-12 col-sm-12">
+                <div class="Offers-column col-lg-12 col-md-12 col-sm-12">
                     <h2 style="text-align: center;">What We Offer</h2>
+                    <hr style="background-color: black;">
 
                     <div class="container-fluid">
                         <div class="row">
@@ -137,21 +138,21 @@
 
                             <div class="Internships col-lg-6 col-md-12 col-sm-12">
                                 <div class="card-header">
-                                    <h3>Internships</h3>
+                                    <h3>Internship Opportunities</h3>
                                 </div>
 
                                 <div class="card-body">
                                     <ul>
                                         <li>
-                                            Feature 1
+                                            <a href="https://nasacentral.force.com/s/explore-opportunities">NASA STEM Gateway</a>
                                         </li>
 
                                         <li>
-                                            Feature 2
+                                            <a href="https://www.nasa.gov/welcome-to-sasa">Student Airborne Science Aviation</a>
                                         </li>
 
                                         <li>
-                                            Feature 3
+                                            <a href="https://www.ball.com/aerospace/careers/internships">Ball Aerospace</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -161,7 +162,7 @@
                         <div class="row">
                             <div class="Engineering-Resources col-lg-6 col-md-12 col-sm-12">
                                 <div class="card-header">
-                                    <h3>Engineering Res.</h3>
+                                    <h3>Engineering Resources</h3>
                                 </div>
 
                                 <div class="card-body">
@@ -205,50 +206,63 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="Projects-column col-lg-6 col-md-12 col-sm-12">
+            <div class="row">
+                <div id="Projects" class="Projects-column col-lg-12 col-md-12 col-sm-12">
                     <h2 style="text-align: center;">Current Projects</h2>
+                    <hr style="background-color: black;">
+
                     <div class="container-fluid">
                         <div class="row">
                             <div class="KS1 col-lg-6 col-md-12 col-sm-12">
-                                <div class="card-header">
+                                <div class="card-header cardHead">
                                     <h3>KS1</h3>
                                 </div>
 
-                                <div class="card-body">
-                                    Description
+                                <div class="card-body cardBody">
+                                    Our founding project. 
+                                    A TubeSat Attitude Determination & Control System designed for InterOrbital Systems' next generation of small satellites. 
+                                    Our launch manifest is for 2022 and will be a technological demonstration and verification. 
+                                    This system is currently being optimized for one of our hungrier projects. 
                                 </div>
                             </div>
 
                             <div class="cubeSAT col-lg-6 col-md-12 col-sm-12">
-                                <div class="card-header">
-                                    <h3>CubeSAT</h3>
+                                <div class="card-header cardHead">
+                                    <h3>KAOS</h3>
                                 </div>
 
-                                <div class="card-body">
-                                    Description
+                                <div class="card-body cardBody">
+                                    The Knight Air Observer Satellite (KAOS), our knight in 3D printed armor...for now. KAOS is the first iteration of UCF's CubeSat Kit. 
+                                    The satellite is destined for a weather balloon launch to collect data on atmospheric chemistry and operate a image classification neural network. 
+                                    The first launch will be conducted in Summer 2022. 
+                                    Future iterations will optimize the neural network and payload vehicle to simulate entry descent & landing in a gliding fashion. 
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="Big_Idea_Challenge col-lg-6 col-md-12 col-sm-12">
-                                <div class="card-header">
+                                <div class="card-header cardHead">
                                     <h3>Big Idea Challenge</h3>
                                 </div>
 
-                                <div class="card-body">
-                                    Description
+                                <div class="card-body cardBody">
+                                    The Collegiate Space Foundation submitted a proposal for NASA's Breakthrough, Innovative, & Game-Changing Challenge. 
+                                    The “MoonHEX” Lunar Hexapod Concept is a rover that navigates the lunar terrain using it's six legs. 
+                                    The rover will study lunar lava tubes in search for primordial life and water. 
                                 </div>
                             </div>
 
                             <div class="PlantSAT col-lg-6 col-md-12 col-sm-12">
-                                <div class="card-header">
+                                <div class="card-header cardHead">
                                     <h3>PlantSAT</h3>
                                 </div>
 
-                                <div class="card-body">
-                                    Description
+                                <div class="card-body cardBody">
+                                    PlantSat is a collaborative project between NASA KSC and the Collegiate Space Foundation. 
+                                    The project focuses on the development of a modular 6U prototype to autonomously grow and deliver crops to a translunar injection (TLI).
                                 </div>
                             </div>
                         </div>
@@ -257,8 +271,9 @@
             </div>
 
             <div class="row" style="text-align: center;">
-                <div class="Events-column col-lg-12 col-md-12 col-sm-12">
+                <div id="Events" class="Events-column col-lg-12 col-md-12 col-sm-12">
                     <h2 style="text-align: center;">Events</h2>
+                    
                     <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=Y29sbGVnaWF0ZXNwYWNlLnVjZkBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
@@ -268,7 +283,6 @@
 
     <section id="Associations" style="padding-top: 3%;">
         <h1>Associations</h1>
-
         <img class="logo" src="images/AIAA_UCF_Logo.png" alt="" style="height: 10%; width: 10%;">
         <img class="logo" src="images/NASA_logo.jpg" alt="" style="height: 10%; width: 10%;">
         <img class="logo" src="images/UCF_Logo.png" alt="" style="height: 10%; width: 10%;">
@@ -277,47 +291,39 @@
 
 
     <section id="site-index">
-        <div class="index-column">
-            <ul class="index-list">
-                
-                <li class="index-header">Past Projects</li>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="index-column col-lg-6 col-md-6 col-sm-12">
+                    <ul class="index-list">
+                        
+                        <li class="index-header">Past Projects</li>
 
-                <li>
-                    <a href="Club_Projects/cubeSAT.html">CubeSAT Nasa Competition <i class="fas fa-caret-right"></i></a>
-                </li>
+                        <li>
+                            <a href="Club_Projects/cubeSAT.html">CubeSAT Nasa Competition <i class="fas fa-caret-right"></i></a>
+                        </li>
 
-                <li>
-                    <a href="Club_Projects/KS1.html">KS1 Project <i class="fas fa-caret-right"></i></a>
-                </li>
-            </ul>
-        </div>
+                        <li>
+                            <a href="Club_Projects/KS1.html">KS1 Project <i class="fas fa-caret-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
-        <div class="index-column">
-            <ul class="index-list">
-                
-                <li class="index-header">Contact Us</li>
+                <div class="index-column col-lg-6 col-md-6 col-sm-12">
+                    <ul class="index-list">
+                        
+                        <li class="index-header">Contact Us/Social Media</li>
 
-                <li>
-                    <a href="HTML/officers.html">Club Officers <i class="fas fa-caret-right"></i></a>
-                </li>
+                        <li>
+                            <a href="HTML/officers.html">Club Officers <i class="fas fa-caret-right"></i></a>
+                        </li>
 
-                <li>
-                    <a href="HTML/members.html">Club Members <i class="fas fa-caret-right"></i></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="index-column">
-            <ul class="index-list">
-                
-                <li class="index-header">Social Media</li>
-
-                <li>
-                    <a href="https://www.linkedin.com/in/the-collegiate-space-foundation-at-ucf-2981bb1aa">LinkedIn <i class="fas fa-caret-right"></i></a>
-                </li>
-            </ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/the-collegiate-space-foundation-at-ucf-2981bb1aa">LinkedIn <i class="fas fa-caret-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-
 </body>
 </html>

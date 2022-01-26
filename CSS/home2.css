@@ -1,10 +1,13 @@
+* {
+
+    font-family: 'Ropa Sans', sans-serif;
+}
+
 #title{
 
     /* background-color: black; */
     height: 50%;
 }
-
-    
 
     #navbar-container {
         background-color: rgba(37, 37, 37, 0.973);
@@ -30,7 +33,7 @@
             .navbar_text {
 
                 color: goldenrod;
-                font-size: medium;
+                
             }
 
                 .navbar_text:hover {
@@ -91,6 +94,11 @@
 
     .card-header {
         text-align: center;
+        background-color: gray;
+    }
+
+    .card-body{
+        background-color: whitesmoke;
     }
 
 .Projects-column{
@@ -133,5 +141,5 @@
     }
 
     .index-header {
-        padding-bottom: 5%;
+        padding-bottom: 1%;
     }
