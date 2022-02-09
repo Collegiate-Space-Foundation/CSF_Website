@@ -11,10 +11,38 @@ h4{
 
 #navbar-container{
     
-    padding: 2% 10%;
     background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 
 }
+
+    /* Navigation Bar */
+    .navbar-nav {
+
+        text-align: right;
+
+    }
+
+    .nav-item {
+
+        padding: 0 15px;
+        font-size: larger;
+    }
+
+    .navbar_text {
+
+        color: goldenrod;
+
+    }
+
+    .navbar_text:hover {
+
+        color: gold
+    }
+
 
     .navbar-brand img {
 
@@ -23,20 +51,30 @@ h4{
 
     }
 
-.club-description{
+    .nav-border {
 
-    padding: 3% 10% 3% 10%;
-    
-}
+        color: goldenrod;
+    }
 
 
 .officers{
     padding: 3% 10% 3% 10%;
+    background-image: url('../images/event_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
+    
+    .club-description{
+        padding-bottom: 3%;
+    }
 
     .officer-description {
         padding-top: 3%;
         padding-bottom: 3%;
+        margin-bottom: 1%;
+
     }
 
 
